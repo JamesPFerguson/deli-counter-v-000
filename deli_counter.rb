@@ -15,7 +15,7 @@ end
 
 def line(line)
  i = 1
-  if !(line.length)
+  if line.length == 0
     puts "The line is currently empty."
   else
     message = "The line is currently: 1. #{line[0]}"
