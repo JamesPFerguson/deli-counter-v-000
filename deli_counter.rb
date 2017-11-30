@@ -19,7 +19,7 @@ def currentLine(line)
     "The line is currently empty."
   else
     message = "The line is currently: 1. #{line[0]}"
-      for i = 1; i < line.length; i++
+      line.length times do
         message += ", ${i + 1}. #{line[i]}"
       end
     message;
