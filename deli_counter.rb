@@ -19,7 +19,8 @@ def line(line)
     puts "The line is currently empty."
   else
     message = "The line is currently: 1. #{line[0]}"
-      line.length.times do
+      counter = line.length-1
+      counter.times do
         message += " #{i + 1}. #{line[i]}"
         i += 1
       end
