@@ -14,13 +14,14 @@ def now_serving(line)
 end
 
 def line(line)
-
+ i = 0
   if (!line.length)
     puts "The line is currently empty."
   else
     message = "The line is currently: 1. #{line[0]}"
       line.length.times do
         message += ", ${i + 1}. #{line[i]}"
+        i += 1
       end
     puts message;
   end
