@@ -16,13 +16,12 @@ end
 def currentLine(line)
 
   if (!line.length)
-    return "The line is currently empty."
+    "The line is currently empty."
   else
     message = "The line is currently: 1. #{line[0]}"
-    for (i = 1; i < line.length; i++)
-      message += ", ${i + 1}. #{line[i]}"
-    end
-    return message;
+      for i = 1; i < line.length; i++
+        message += ", ${i + 1}. #{line[i]}"
+      end
+    message;
   end
-  
 end
