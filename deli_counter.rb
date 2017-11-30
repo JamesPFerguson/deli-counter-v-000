@@ -19,9 +19,9 @@ def currentLine(line)
   if (!line.length)
     return "The line is currently empty."
   else
-    var message = `The line is currently: 1. ${line[0]}`;
+    var message = "The line is currently: 1. #{line[0]}"
     for (i = 1; i < line.length; i++) {
-      message += `, ${i + 1}. ${line[i]}`
+      message += ", ${i + 1}. #{line[i]}"
 
     return message;
   end
