@@ -1,11 +1,11 @@
 # Write your code here.
 
-def takeANumber(line, name)
+def take_a_number(line, name)
   line.push(name)
    "Welcome, #{name}. You are number #{line.length} in line."
 end
 
-def nowServing(line)
+def now_serving(line)
   if (line.length == 0)
     "There is nobody waiting to be served!"
   else
@@ -13,7 +13,7 @@ def nowServing(line)
   end
 end
 
-def currentLine(line)
+def line(line)
 
   if (!line.length)
     "The line is currently empty."
