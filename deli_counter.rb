@@ -14,7 +14,7 @@ def now_serving(line)
 end
 
 def line(line)
- i = 0
+ i = 1
   if (!line.length)
     puts "The line is currently empty."
   else
