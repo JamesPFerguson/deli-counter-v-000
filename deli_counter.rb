@@ -23,6 +23,5 @@ def line(line)
         message += " #{i + 1}. #{line[i]}"
         i += 1
       end
-    puts message;
   end
 end
