@@ -20,7 +20,7 @@ def line(line)
   else
     message = "The line is currently: 1. #{line[0]}"
       line.length.times do
-        message += ", ${i + 1}. #{line[i]}"
+        message += ", #{i + 1}. #{line[i]}"
         i += 1
       end
     puts message;
